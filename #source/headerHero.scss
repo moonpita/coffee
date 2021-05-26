@@ -1,0 +1,233 @@
+.top {
+    background: url(/img/heroBG.png) center center no-repeat;
+    height: 700px;
+}
+
+header {
+    height: 150px;
+    
+}
+.header-home .header {
+    &-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 45px;
+    }
+    &-logo {
+        width: 250px;
+        height: auto;
+        margin-right: 45px;
+    }
+    &-cont {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 100%;
+        &__callback {
+            font-size: 14px;
+            color: #fff;
+            line-height: 21px;
+            margin-bottom: 15px;
+            text-decoration: underline;
+            padding: 0;
+            background: none;
+            outline: none;
+            border: none;
+            width: max-content;
+            &:focus {
+                outline: none;
+            }
+        }
+        &__phone {
+            margin-bottom: 15px;
+        }
+        &__phone,
+        &__adress {
+            color: #fff;
+            font-size: 14px;
+        }
+    }
+    &-nav {
+        margin-left: auto;
+    }
+    &-list {
+        display: flex;
+        &__item {
+            color: #fff;
+            font-size: 16px;
+            &:not(:last-child) {
+                margin-right: 70px;
+            }
+            &:last-child a{
+                padding-left: 20px;
+                padding-right: 10px;
+            }
+            & a {
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+
+
+// HERO
+
+
+
+.hero {
+    &-wrapper {
+        width: 50%;   
+        margin-top: 65px;
+    }
+    &-title {
+        font-size: 48px;
+        color: #FFE1B4;
+        font-weight: 800;
+        & b {
+            color: $main-green;
+        }
+    }
+    &-description {
+        color: #fff;
+        line-height: 24px;
+        margin-top: 40px;
+    }
+    &-btn {
+        margin-top: 52px;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+}
+
+
+
+
+
+
+// BURGER
+
+.c-hamburger {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 48px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    box-shadow: none;
+    cursor: pointer;
+    background: #333;
+    &-line span {
+        display: block;
+        position: absolute;
+        top: 22px;
+        left: 9px; right: 9px;
+        height: 4px;
+        background-color: #fff;
+        &::before,
+        &::after {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 100%;
+            left: 0;
+            height: 4px;
+            background: #fff;
+            transition: all .3s ease;
+        }
+        &::before {
+            top: -10px;
+        }
+        &::after {
+            bottom: -10px;
+        }
+
+    }
+    &-line span{
+        transition: all .3s ease;
+    }
+}
+
+.c-hamburger:focus {
+    outline: none;
+}
+
+.c-hamburger-line {
+    transition: all 1s ease;
+}
+
+.c-hamburger-line.is-active {
+    top: 0;
+    & span {
+        background: none;
+    }
+    & span::before {
+        top: 0;
+        transform: rotate(-45deg);
+    }
+    & span::after {
+        bottom: 0;
+        transform: rotate(45deg);
+    }
+}
+
+#menu {
+    width: 300px;
+    margin-right: -252px;
+    background: transparent;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 1s ease;
+    z-index: 9999;
+    padding-top: 70px;
+    padding-left: 70px;
+}
+
+.burger-list {
+    display: flex;
+    flex-direction: column;
+    &__item {
+        margin-bottom: 50px;
+        & a {
+            color: #fff;
+            font-weight: 600;
+            font-size: 26px;
+        }
+        &:last-child {
+            display: flex;
+            align-items: center;
+            & img {
+                margin-right: 8px;
+
+            }
+        }
+    }
+}
+
+#menu.nav-active {
+    margin-right: 0px;
+    background: rgba(77, 139, 85, 0.8);
+}
+
+.body-active {
+    margin-left: -450px;
+}
+
+#menu {
+    display: none;
+}
+
+.header-mob__callback {
+    display: none;
+}
+
+
+

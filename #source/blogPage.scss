@@ -1,0 +1,18 @@
+.blog {
+    &-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        & .posts-list__item {
+            margin-bottom: 50px;
+        }
+    }
+    &-top {
+        margin-top: 45px;
+        & h2 {
+            font-size: 48px;
+            font-weight: 58px;
+        }
+    }
+}

@@ -1,0 +1,86 @@
+@media (max-width: 840px) {
+    .vivoz__label,
+    .dostavka__label {
+        width: 45%;
+        height: 45%;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    .vivoz__label p,
+    .dostavka__label p,
+    .vivoz__label h3,
+    .dostavka__label h3 {
+        text-align: center;
+        font-size: 24px;
+        line-height: 1.2;
+    }
+}
+@media (max-width: 640px) {
+    .vivoz__label,
+    .dostavka__label {
+        width: 50%;
+        height: 200px;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    .vivoz__label p,
+    .dostavka__label p,
+    .vivoz__label h3,
+    .dostavka__label h3 {
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .vivoz__label img,
+    .dostavka__label img {
+        width: 80px;
+    }
+
+}
+
+@media (max-width: 540px) {
+    .order-person-transfer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .vivoz__label,
+    .dostavka__label  {
+        width: 45%;
+    }
+    .vivoz__label {
+        margin-right: 10px;
+    }
+    .order-person-content,
+    .order-person__title {
+        width: 100%;
+    }
+    .order-person-content {
+        padding: 15px 20px;
+        & input,
+        & textarea {
+            font-size: 28px;
+        }
+    }
+    .order-person__text,
+    .order-person__title {
+        font-size: 28px;
+    }
+    .agreement {
+        width: 55%;
+        text-align: center;
+    }
+    .dostavka__label {
+        margin-left: 0px;
+    }
+}
+@media (max-width: 360px) {
+    .vivoz__label,
+    .dostavka__label  {
+        width: 45%;
+        height: 180px;
+        padding-bottom: 20px;
+    }
+    .vivoz__label img, .dostavka__label img {
+        width: 60px;
+    }
+}

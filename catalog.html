@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/style.css">
+    <title>GreenBlack</title>
+</head>
+<body class="catalog-body">
+    
+    <section class="top">
+        <header class="header-home">
+            <div class="container">
+                <div class="header-wrap">
+                    <a href="index.html"><img src="/img/logo.svg" alt="" class="header-logo"></a>
+                    <div class="header-cont">
+                        <a href="tel:+79137649714" class="header-cont__phone">+7 (913) 764-97-14</a>
+                        <button class="header-cont__callback">Заказать обратный звонок</button>
+                        <p class="header-cont__adress">г. Новосибирск, ул. Гоголя, д. 40</p>
+                    </div>
+                    <a href="tel:88008008080" class="header-mob__callback">Позвонить</a>
+                    <nav class="header-nav">
+                        <ul class="header-list">
+                            <li class="header-list__item"><a href="#">О нас</a></li>
+                            <li class="header-list__item"><a href="#">Чай</a></li>
+                            <li class="header-list__item"><a href="#">Кофе</a></li>
+                            <li class="header-list__item"><a href="#">Контакты</a></li>
+                            <li class="header-list__item"><a href="#"><img src="/img/cart.svg" alt=""></a></li>
+                        </ul>
+                    </nav>
+                    <div id="menu">
+                        <button class="c-hamburger c-hamburger-line">
+                            <span></span>
+                        </button>
+                        <nav class="burger-nav">
+                            <ul class="burger-list">
+                                <li class="burger-list__item"><a href="#">О нас</a></li>
+                                <li class="burger-list__item"><a href="#">Чай</a></li>
+                                <li class="burger-list__item"><a href="#">Кофе</a></li>
+                                <li class="burger-list__item"><a href="#">Контакты</a></li>
+                                <li class="burger-list__item"><a href="#"><img src="/img/cart.svg" alt="">Корзина</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                
+            </div>
+        </header>
+        
+    </section>
+
+    <main>
+
+        <section class="catalog">
+            <div class="container">
+                <div class="catalog-top">
+                    <h1 class="catalog__title">Каталог</h1>
+                    <img src="/img/aboutBlockLine.svg" alt="" class="catalog__line">
+                </div>
+                <div class="catalog-wrapper">
+                    <div class="catalog-left">
+
+                        <form action="#">
+                            <input type="text" placeholder="Поиск">
+                            <button>Найти</button>
+                        </form>
+
+
+                        <nav class="dropdown-menu" id="nav">
+                            <ul class="dropdown-menu__list" id="tree">
+                                <li class="dropdown-menu__main-item ">
+                                    <button href="#" class="dropdown-menu__link" id="submenu-coffee">Кофе</button>
+                                    <ul class="submenu__list">
+
+                                        <li>
+                                            <button href="#" class="submenu__link">Десертный зелёный чай</button>
+                                        </li>
+                                        <li>
+                                            <button href="#" class="submenu__link">Десертный черный чай</button>
+                                        </li>
+                                        <li>
+                                            <button href="#" class="submenu__link">Мате</button>
+                                        </li>
+                                        <li>
+                                            <button href="#" class="submenu__link">Ройбуш</button>
+                                        </li>
+                                        <li>
+                                            <button href="#" class="submenu__link">Травяной чай</button>
+                                        </li>
+                                        <li>
+                                            <button href="#" class="submenu__link">Фруктовый чай</button>
+                                        </li>
+                                        <li>
+                                            <button href="#" class="submenu__link">Черный чай</button>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="dropdown-menu__main-item">
+                                    <button href="#" class="dropdown-menu__link"  id="submenu-tea">Чай</button>
+                                    <ul class="submenu__list">
+                                        <li>
+                                            <button href="#" class="submenu__link">Десертный зелёный чай</button>
+                                        </li>
+                                        <li>
+                                            <button href="#" class="submenu__link">Десертный черный чай</button>
+                                        </li>
+                                        <li>
+                                            <button href="#" class="submenu__link">Мате</button>
+                                        </li>
+                                        <li>
+                                            <button href="#" class="submenu__link">Ройбуш</button>
+                                        </li>
+                                        <li>
+                                            <button href="#" class="submenu__link">Травяной чай</button>
+                                        </li>
+                                        <li>
+                                            <button href="#" class="submenu__link">Фруктовый чай</button>
+                                        </li>
+                                        <li>
+                                            <button href="#" class="submenu__link">Черный чай</button>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-menu__main-item">
+                                    <button href="#"  class="dropdown-menu__link" id="submenu-chinesse">Китайский чай</button>
+                                    <ul class="submenu__list">
+                                        <li>
+                                            <button href="#" class="submenu__link">Десертный зелёный чай</button>
+                                        </li>
+                                        <li>
+                                            <button href="#" class="submenu__link">Десертный черный чай</button>
+                                        </li>
+                                        <li>
+                                            <button href="#" class="submenu__link">Мате</button>
+                                        </li>
+                                        <li>
+                                            <button href="#" class="submenu__link">Ройбуш</button>
+                                        </li>
+                                        <li>
+                                            <button href="#" class="submenu__link">Травяной чай</button>
+                                        </li>
+                                        <li>
+                                            <button href="#" class="submenu__link">Фруктовый чай</button>
+                                        </li>
+                                        <li>
+                                            <button href="#" class="submenu__link">Черный чай</button>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+
+
+
+                    </div>
+                    <div class="catalog-right">
+                        <h2 class="catalog-right__title">Чай</h2>
+                        <ul class="catalog-right__list">
+                            <li class="catalog-right__list--item">
+                                <div class="popular-card catalog-card">
+                                    <div class="popular-card__sale">Акция</div>
+                                    <img src="/img/popularCard.jpg" alt="" class="popular-card__img">
+                                    <h3 class="popular-card__title">Восточная сладость</h3>
+                                    <p class="popular-card__description">Черный цейлонский чай с кусочками клубники, манго и персика. Прекрасное сочетание составляющих этого чая позволяет ощутить вкус изысканных...</p>
+                                    
+                                    <div class="popular-card__footer">
+                                        <button class="popular-card__footer--btn catalog-card-btn btn">В корзину</button>
+                                        <p class="popular-card__footer--price catalog-card--price"><b>220</b>руб.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="catalog-right__list--item">
+                                <div class="popular-card catalog-card">
+                                    <div class="popular-card__sale">Акция</div>
+                                    <img src="/img/popularCard.jpg" alt="" class="popular-card__img">
+                                    <h3 class="popular-card__title">Восточная сладость</h3>
+                                    <p class="popular-card__description">Черный цейлонский чай с кусочками клубники, манго и персика. Прекрасное сочетание составляющих этого чая позволяет ощутить вкус изысканных...</p>
+                                    <div class="popular-card__footer">
+                                        <button class="popular-card__footer--btn catalog-card-btn btn">В корзину</button>
+                                        <p class="popular-card__footer--price catalog-card--price"><b>220</b>руб.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="catalog-right__list--item">
+                                <div class="popular-card catalog-card">
+                                    <div class="popular-card__sale">Акция</div>
+                                    <img src="/img/popularCard.jpg" alt="" class="popular-card__img">
+                                    <h3 class="popular-card__title">Восточная сладость</h3>
+                                    <p class="popular-card__description">Черный цейлонский чай с кусочками клубники, манго и персика. Прекрасное сочетание составляющих этого чая позволяет ощутить вкус изысканных...</p>
+                                    <div class="popular-card__footer">
+                                        <button class="popular-card__footer--btn catalog-card-btn btn">В корзину</button>
+                                        <p class="popular-card__footer--price catalog-card--price"><b>220</b>руб.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="catalog-right__list--item">
+                                <div class="popular-card catalog-card">
+                                    <div class="popular-card__sale">Акция</div>
+                                    <img src="/img/popularCard.jpg" alt="" class="popular-card__img">
+                                    <h3 class="popular-card__title">Восточная сладость</h3>
+                                    <p class="popular-card__description">Черный цейлонский чай с кусочками клубники, манго и персика. Прекрасное сочетание составляющих этого чая позволяет ощутить вкус изысканных...</p>
+                                    <div class="popular-card__footer">
+                                        <button class="popular-card__footer--btn catalog-card-btn btn">В корзину</button>
+                                        <p class="popular-card__footer--price catalog-card--price"><b>220</b>руб.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="catalog-right__list--item">
+                                <div class="popular-card catalog-card">
+                                    <div class="popular-card__sale">Акция</div>
+                                    <img src="/img/popularCard.jpg" alt="" class="popular-card__img">
+                                    <h3 class="popular-card__title">Восточная сладость</h3>
+                                    <p class="popular-card__description">Черный цейлонский чай с кусочками клубники, манго и персика. Прекрасное сочетание составляющих этого чая позволяет ощутить вкус изысканных...</p>
+                                    <div class="popular-card__footer">
+                                        <button class="popular-card__footer--btn catalog-card-btn btn">В корзину</button>
+                                        <p class="popular-card__footer--price catalog-card--price"><b>220</b>руб.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="catalog-right__list--item">
+                                <div class="popular-card catalog-card">
+                                    <div class="popular-card__sale">Акция</div>
+                                    <img src="/img/popularCard.jpg" alt="" class="popular-card__img">
+                                    <h3 class="popular-card__title">Восточная сладость</h3>
+                                    <p class="popular-card__description">Черный цейлонский чай с кусочками клубники, манго и персика. Прекрасное сочетание составляющих этого чая позволяет ощутить вкус изысканных...</p>
+                                    <div class="popular-card__footer">
+                                        <button class="popular-card__footer--btn catalog-card-btn btn">В корзину</button>
+                                        <p class="popular-card__footer--price catalog-card--price"><b>220</b>руб.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="catalog-right__list--item">
+                                <div class="popular-card catalog-card">
+                                    <div class="popular-card__sale">Акция</div>
+                                    <img src="/img/popularCard.jpg" alt="" class="popular-card__img">
+                                    <h3 class="popular-card__title">Восточная сладость</h3>
+                                    <p class="popular-card__description">Черный цейлонский чай с кусочками клубники, манго и персика. Прекрасное сочетание составляющих этого чая позволяет ощутить вкус изысканных...</p>
+                                    
+                                    <div class="popular-card__footer">
+                                        <button class="popular-card__footer--btn catalog-card-btn btn">В корзину</button>
+                                        <p class="popular-card__footer--price catalog-card--price"><b>220</b>руб.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="catalog-right__list--item">
+                                <div class="popular-card catalog-card">
+                                    <div class="popular-card__sale">Акция</div>
+                                    <img src="/img/popularCard.jpg" alt="" class="popular-card__img">
+                                    <h3 class="popular-card__title">Восточная сладость</h3>
+                                    <p class="popular-card__description">Черный цейлонский чай с кусочками клубники, манго и персика. Прекрасное сочетание составляющих этого чая позволяет ощутить вкус изысканных...</p>
+                                    
+                                    <div class="popular-card__footer">
+                                        <button class="popular-card__footer--btn catalog-card-btn btn">В корзину</button>
+                                        <p class="popular-card__footer--price catalog-card--price"><b>220</b>руб.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="catalog-right__list--item">
+                                <div class="popular-card catalog-card">
+                                    <div class="popular-card__sale">Акция</div>
+                                    <img src="/img/popularCard.jpg" alt="" class="popular-card__img">
+                                    <h3 class="popular-card__title">Восточная сладость</h3>
+                                    <p class="popular-card__description">Черный цейлонский чай с кусочками клубники, манго и персика. Прекрасное сочетание составляющих этого чая позволяет ощутить вкус изысканных...</p>
+                                    
+                                    <div class="popular-card__footer">
+                                        <button class="popular-card__footer--btn catalog-card-btn btn">В корзину</button>
+                                        <p class="popular-card__footer--price catalog-card--price"><b>220</b>руб.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="container">
+                <div class="reviews-wrapper">
+                    <div class="popular-top about-title_mob usefull-title_mob">
+                        <h2 class="popular__title">Отзывы</h2>
+                        <img src="/img/aboutBlockLine.svg" alt="" class="popular__line">
+                   </div>
+                    <div class=" qblock qblock-reviews">
+                        <h2 class=" qblock-title">Делитесь отзывами</h2>
+                        <img src="/img/aboutBlockLine.svg" class=" qblock-img" alt="">
+                        <p class="qblock-description">Опубликуйте свой отзыв о нашем магазине на Флампе и получите скидку на покупку</p>
+                    </div>
+
+                    <a class="flamp-widget" href="//novosibirsk.flamp.ru/firm/magazin_chaya_i_kofe_ip_markov_a_v_g_novosibirsk-70000001029838745"  data-flamp-widget-type="responsive-new" data-flamp-widget-id="70000001029838745" data-flamp-widget-width="100%" data-flamp-widget-count="1">Отзывы о нас на Флампе</a><script>!function(d,s){var js,fjs=d.getElementsByTagName(s)[0];js=d.createElement(s);js.async=1;js.src="//widget.flamp.ru/loader.js";fjs.parentNode.insertBefore(js,fjs);}(document,"script");</script>
+
+                </div>
+            </div>
+       </section>
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-column">
+                    <h2 class="footer-column__title--first">О компании</h2>
+                    <p class="footer__description">В нашем магазине мы собрали для Вас самый вкусный и ароматный чай.</p>
+                    <p class="footer__description">А невероятный кофе из нашего магазина подарит вам заряд бодрости и не забываемое удовольствие.</p>
+                    <p class="footer__adress"> г. Новосибирск, ул. Гоголя, д. 40</p>
+                    <a href="tel:+79137649714" class="footer__phone">+7 (913) 764-97-14</a>
+                </div>
+                <div class="footer-column">
+                    <h2 class="footer-column__title">КОФЕ</h2>
+                    <ul class="footer-column-list footer-coffee__list">
+                        <li class="footer-column-list__item footer-coffee__item"><a href="#">Вьетнамский кофе в зёрнах</a></li>
+                        <li class="footer-column-list__item footer-coffee__item"><a href="#">Вьетнамский кофе молотый</a></li>
+                        <li class="footer-column-list__item footer-coffee__item"><a href="#">Десертный кофе</a></li>
+                        <li class="footer-column-list__item footer-coffee__item"><a href="#">Плантационный кофе</a></li>
+                        <li class="footer-column-list__item footer-coffee__item"><a href="#">Эспрессо смеси</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h2 class="footer-column__title">ЧАЙ</h2>
+                    <ul class="footer-column-list footer-tea-list">
+                        <li class="li footer-column-list__item footer-tea__item"><a href="#">Десертный зелёный чай</a></li>
+                        <li class="li footer-column-list__item footer-tea__item"><a href="#">Десертный чёрный чай</a></li>
+                        <li class="li footer-column-list__item footer-tea__item"><a href="#">Мате</a></li>
+                        <li class="li footer-column-list__item footer-tea__item"><a href="#">Ройбуш</a></li>
+                        <li class="li footer-column-list__item footer-tea__item"><a href="#">Травяной чай</a></li>
+                        <li class="li footer-column-list__item footer-tea__item"><a href="#">Фруктовый чай</a></li>
+                        <li class="li footer-column-list__item footer-tea__item"><a href="#">Пуэр</a></li>
+                        <li class="li footer-column-list__item footer-tea__item"><a href="#">Улун</a></li>
+                        <li class="li footer-column-list__item footer-tea__item"><a href="#">Чёрный чай</a></li>
+                        <li class="li footer-column-list__item footer-tea__item"><a href="#">Зелёный чай</a></li>
+                    </ul>
+                </div>
+               
+            </div>
+            <div class="footer__policy-wrap">
+                <p class="footer__policy">
+
+                    Green Black © 2021 Все права защищены<br>Сайт разработан в SMM Ассоциации
+                </p>
+                <a href="#" class="footer__policy--link">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/swiper.js"></script>
+</body>
+</html>
